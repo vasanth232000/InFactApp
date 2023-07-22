@@ -11,6 +11,10 @@ import { HomeComponent } from './pages/home/home.component';
 import { SingleCategoryComponent } from './pages/single-category/single-category.component';
 import { SinglePostComponent } from './pages/single-post/single-post.component';
 import { TermsAndConditionComponent } from './pages/terms-and-condition/terms-and-condition.component';
+import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
+import { CommentsFormComponent } from './comments/comments-form/comments-form.component';
+import { CommentsListComponent } from './comments/comments-list/comments-list.component';
+import { AboutComponent } from './pages/about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import { TermsAndConditionComponent } from './pages/terms-and-condition/terms-an
     HomeComponent,
     SingleCategoryComponent,
     SinglePostComponent,
-    TermsAndConditionComponent
+    TermsAndConditionComponent,
+    SubscriptionFormComponent,
+    CommentsFormComponent,
+    CommentsListComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

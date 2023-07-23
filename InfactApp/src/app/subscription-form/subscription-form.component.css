@@ -1,0 +1,12 @@
+.card{
+    background-color: var(--secondary-color);
+}
+
+
+.btn-sub{
+    width: 100%;
+}
+
+.subs-text{
+    width: 500px;
+}
